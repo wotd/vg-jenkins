@@ -7,3 +7,7 @@ apt-get update
 apt-get -y install jenkins
 
 service jenkins restart
+
+
+echo "192.168.50.50 jmaster" >> /etc/hosts
+echo "192.168.50.60 jnode" >> /etc/hosts
